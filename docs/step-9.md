@@ -45,15 +45,42 @@ To reduce the size of the generated JavaScript by half or more,
 you can minify the JavaScript.
 _Minification_ is the process of removing all unnecessary characters from source code.
 In the future, you'll be able to use the `pub build` command,
-which automatically minifies the outpu.
+which automatically minifies the output.
 Unfortunately `pub build`
 doesn't yet work with the code lab samples,
 so this section has a workaround.
 
-<b> &rarr; In Dart Editor, click the little arrow to the right of the Run button. </b>
+<b> &rarr; In Dart Editor's menu, choose Run > Manage Launches. </b>
 
-_[PENDING: instructions for modifying the launch to specify --minify]_ </b>
+Alternatively, click the little arrow to the right of the Run button,
+and then choose **Manage Launches**.
 
+<b> &rarr; Choose the JavaScript launch configuration. </b>
+
+Click the launch configuration to choose it.
+The launch configuration should have a gray world icon,
+and its target should be the HTML file for the app.
+
+If you can't decide on the right launch configuration,
+try this trick:
+Delete all the launch configurations
+that you didn't explicitly create or edit
+(select them all, and click the red X).
+Then run the app as JavaScript again,
+and return to this dialog.
+Now click the only launch configuration in the list.
+
+<b> &rarr; Add the --minify compiler flag. </b>
+
+In the **Dart2js settings** section's **Compiler flags** field,
+put the following text:
+
+    --minify
+
+_[PENDING: image goes here]_
+
+
+## What next?
 
 _[PENDING: link to what to do next: tutorial, ...]_
 
