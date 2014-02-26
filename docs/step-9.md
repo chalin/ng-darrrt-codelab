@@ -23,8 +23,7 @@ right-click it, and choose **Run as JavaScript**.
 
 At the lower right of Dart Editor is a progress bar
 telling you the status of the build,
-which might take up to a minute.
-_[PENDING: time this.]_
+which might take 20 or 30 seconds.
 You might also see many warnings in an Output pane;
 as long as your app eventually comes up,
 you can ignore the warnings.
@@ -42,14 +41,20 @@ such as Safari or Firefox.
 
 ### Minify the JavaScript
 
-This step is necessary because `pub build`
-doesn't yet work with the code lab samples.
-(The `pub build` command automatically minifies the JavaScript.)
-The section has a workaround.
+To reduce the size of the generated JavaScript by half or more,
+you can minify the JavaScript.
+_Minification_ is the process of removing all unnecessary characters from source code.
+In the future, you'll be able to use the `pub build` command,
+which automatically minifies the outpu.
+Unfortunately `pub build`
+doesn't yet work with the code lab samples,
+so this section has a workaround.
 
-<b> &rarr; In Dart Editor, _[PENDING: instructions for modifying the launch to specify --minify]_ </b>
+<b> &rarr; In Dart Editor, click the little arrow to the right of the Run button. </b>
+
+_[PENDING: instructions for modifying the launch to specify --minify]_ </b>
 
 
-_[PENDING: link to what they should do now]_
+_[PENDING: link to what to do next: tutorial, ...]_
 
 ## [Home](../README.md) | [< Previous](step-8.md)
