@@ -10,7 +10,7 @@ you need to compile your app to JavaScript.
 Before deploying your app, you also need to minify its JavaScript.
 
 **Note:** AngularDart currently produces large JavaScript.
-[PENDING: perhaps explain more, definitely link to bugs to follow]
+_[PENDING: perhaps explain more, definitely link to bugs to follow]_
 
 ### Run the app as JavaScript.
 
@@ -24,7 +24,7 @@ right-click it, and choose **Run as JavaScript**.
 At the lower right of Dart Editor is a progress bar
 telling you the status of the build,
 which might take up to a minute.
-[PENDING: time this.]
+_[PENDING: time this.]_
 You might also see many warnings in an Output pane;
 as long as your app eventually comes up,
 you can ignore the warnings.
@@ -47,13 +47,9 @@ doesn't yet work with the code lab samples.
 (The `pub build` command automatically minifies the JavaScript.)
 The section has a workaround.
 
-<b> &rarr; In Dart Editor, [PENDING: instructions for modifying the launch to specify --minify] </b>
+<b> &rarr; In Dart Editor, _[PENDING: instructions for modifying the launch to specify --minify]_ </b>
 
 
-### Learn more about
- - [Introducing Filters](https://angulardart.org/tutorial/07-ch05-filter-service.html)
-
-### Problems?
-[PENDING: resources]
+_[PENDING: link to what they should do now]_
 
 ## [Home](../README.md) | [< Previous](step-8.md)
