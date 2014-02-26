@@ -23,7 +23,7 @@ right-click it, and choose **Run as JavaScript**.
 
 At the lower right of Dart Editor is a progress bar
 telling you the status of the build,
-which might take 20 or 30 seconds.
+which might take 15 or 20.
 You might also see many warnings in an Output pane;
 as long as your app eventually comes up,
 you can ignore the warnings.
@@ -72,12 +72,14 @@ Now click the only launch configuration in the list.
 
 <b> &rarr; Add the --minify compiler flag. </b>
 
-In the **Dart2js settings** section's **Compiler flags** field,
-put the following text:
+Add **--minify** to the **Dart2js settings** section's **Compiler flags** field.
 
-    --minify
+![screenshot of Dart Editor's Manage Launches dialog](img/manageLaunches.png)
 
-_[PENDING: image goes here]_
+<b> &rarr; Click the Run button. </b>
+
+Like before, you'll see a status message.
+Soon, the app will appear in your default browser.
 
 
 ## What next?
