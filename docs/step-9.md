@@ -1,4 +1,4 @@
-## Step 9: Build the app and run as JavaScript
+## Step 9: Run the app as JavaScript
 
 In this step, you compile the app to JavaScript and
 run it in the modern browser of your choice.
@@ -16,19 +16,38 @@ Before deploying your app, you also need to minify its JavaScript.
 
 **&rarr; In Dart Editor, right-click the HTML file and choose Run as JavaScript.**
 
-[PENDING: say what you should see.]
+For example, go to **web/8-filter/piratebadge.html**,
+right-click it, and choose **Run as JavaScript**.
 
-![screenshot of Dart Editor](/img/runAsJS.png)
+![screenshot of Dart Editor](img/runAsJs.png)
 
-**&rarr; Run the app in another browser.**
+At the lower right of Dart Editor is a progress bar
+telling you the status of the build,
+which might take up to a minute.
+[PENDING: time this.]
+You might also see many warnings in an Output pane;
+as long as your app eventually comes up,
+you can ignore the warnings.
+
+Once Dart Editor compiles your file,
+it brings up the app in your default browser
+(for example, Chrome).
+
+
+### Run the app in another browser.
+
+Copy the app's URL from your default browser,
+and paste it into another browser,
+such as Safari or Firefox.
 
 ### Minify the JavaScript
 
-If you used `pub build`, your JavaScript would already be minified.
-Unfortunately, that doesn't work (yet).
-Here's a workaround.
+This step is necessary because `pub build`
+doesn't yet work with the code lab samples.
+(The `pub build` command automatically minifies the JavaScript.)
+The section has a workaround.
 
-**&rarr; In Dart Editor, [PENDING: instructions for modifying the launch to specify --minify]
+<b> &rarr; In Dart Editor, [PENDING: instructions for modifying the launch to specify --minify] </b>
 
 
 ### Learn more about
