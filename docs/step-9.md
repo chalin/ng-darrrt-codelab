@@ -7,7 +7,7 @@ _**Keywords**: dart2js, minification_
 
 Once you're ready to test your app in a non-Dartium browser,
 you need to compile your app to JavaScript.
-Before deploying your app, you also need to minify its JavaScript.
+Before deploying your app, you might also want to minify its JavaScript.
 
 **Note:** AngularDart currently produces large JavaScript.
 _[PENDING: perhaps explain more, definitely link to bugs to follow]_
