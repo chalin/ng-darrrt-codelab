@@ -9,8 +9,8 @@ Once you're ready to test your app in a non-Dartium browser,
 you need to compile your app to JavaScript.
 Before deploying your app, you might also want to minify its JavaScript.
 
-**Note:** AngularDart currently produces large JavaScript.
-_[PENDING: perhaps explain more, definitely link to bugs to follow]_
+**Note:** Compiling AngularDart apps to JavaScript currently results in large files.
+See [issue 476](https://github.com/angular/angular.dart/issues/476) for details.
 
 ### Run the app as JavaScript.
 
@@ -23,7 +23,7 @@ right-click it, and choose **Run as JavaScript**.
 
 At the lower right of Dart Editor is a progress bar
 telling you the status of the build,
-which might take 15 or 20.
+which might take 15 or 20 seconds.
 You might also see many warnings in an Output pane;
 as long as your app eventually comes up,
 you can ignore the warnings.
@@ -39,16 +39,19 @@ Copy the app's URL from your default browser,
 and paste it into another browser,
 such as Safari or Firefox.
 
-### Minify the JavaScript
+### Minify the JavaScript.
 
 To reduce the size of the generated JavaScript by half or more,
-you can minify the JavaScript.
-_Minification_ is the process of removing all unnecessary characters from source code.
-In the future, you'll be able to use the `pub build` command,
-which automatically minifies the output.
-Unfortunately `pub build`
-doesn't yet work with the code lab samples,
-so this section has a workaround.
+you can _minify_ it,
+removing all unnecessary characters from the JavaScript.
+The best way to minify JavaScript produced from Dart is to use
+the dart2js compiler's `--minify` option.
+Although the `pub build` command
+automatically minifies,
+unfortunately `pub build`
+doesn't yet work with the code lab samples.
+One workaround, which this section describes,
+is to specify dart2js options to Dart Editor.
 
 <b> &rarr; In Dart Editor's menu, choose Run > Manage Launches. </b>
 
