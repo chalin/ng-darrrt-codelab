@@ -1,3 +1,7 @@
+**THIS IS A DRAFT.**
+[Please report any issues you find.](https://github.com/angular/ng-darrrt-codelab/issues)
+
+
 ## Step 9: Run the app as JavaScript
 
 In this step, you compile the app to JavaScript and
@@ -11,6 +15,7 @@ Before deploying your app, you might also want to minify its JavaScript.
 
 **Note:** Compiling AngularDart apps to JavaScript currently results in large files.
 See [issue 476](https://github.com/angular/angular.dart/issues/476) for details.
+
 
 ### Run the app as JavaScript.
 
@@ -87,6 +92,7 @@ Soon, the app will appear in your default browser.
 
 ## What next?
 
-_[PENDING: link to what to do next: tutorial, ...]_
+Try the [AngularDart Tutorial](https://angulardart.org/tutorial/).
+
 
 ## [Home](../README.md) | [< Previous](step-8.md)
