@@ -16,7 +16,7 @@ Before deploying your app, you might also want to minify its JavaScript.
 See [issue 476](https://github.com/angular/angular.dart/issues/476) for details.
 
 
-### Run the app as JavaScript.
+### Run the app in your default browser.
 
 **&rarr; In Dart Editor, right-click the HTML file and choose Run as JavaScript.**
 
