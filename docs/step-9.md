@@ -1,8 +1,7 @@
+## Step 9: Run the app as JavaScript
+
 **THIS IS A DRAFT.**
 [Please report any issues you find.](https://github.com/angular/ng-darrrt-codelab/issues)
-
-
-## Step 9: Run the app as JavaScript
 
 In this step, you compile the app to JavaScript and
 run it in the modern browser of your choice.
